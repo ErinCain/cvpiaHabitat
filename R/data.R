@@ -12,8 +12,6 @@
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/sacramento_river.html}{Habitat Markdown Documentation Sacramento River}
-#'
 #' \tabular{lllllll}{
 #'   \strong{Species} \tab \strong{Migration} \tab \strong{Peak Migration} \tab \strong{Spawning} \tab \strong{Peak Spawning} \tab \strong{Juvenile Emergence} \tab \strong{Juvenile Rearing} \cr
 #'   Late-Fall Run \tab Oct-Apr \tab Dec \tab Jan-Apr \tab Feb-Mar \tab Apr-Jun \tab 7-13 mths \cr
@@ -23,11 +21,7 @@
 #' }
 #'
 #' \emph{Generalised life history Yoshinyama et al. 1998}
-#'
-#' @examples
-#' upper_sac_ACID_boards_in
-#'
-#' @source \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/HendrixEtAl2014_Winter_Run_Model_Tech_Memo.pdf}{Central Valley Floodplain Evaluation and Delineation (CVFED) HEC-RAS hydraulic model refined for use in the NOAA-NMFS Winter Run Chinook Salmon life cycle model}
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/sacramento_river.html}{Sacramento River Habitat Documenation}
 #' @name up_sac_spawn
 #' @aliases NULL
 NULL
@@ -50,39 +44,7 @@ NULL
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @examples
-#' upper_sacramento_river_floodplain
-#'
-#' @section Fall Run and Steelhead Modeling:
-#' The entire mapped rearing extent was modeled using Central Valley Floodplain
-#' Evaluation and Delineation (CVFED) HEC-RAS hydraulic model refined for use in the NOAA-NMFS Winter
-#' Run Chinook Salmon life cycle model. The high quality depth and high quality velocity ("Pref11") "BankArea"
-#' result was used as floodplain area. High quality velocities were assumed to be less than or equal to 0.15 meters
-#' per second, and high quality depths were assumed to be between 0.2 meters and 1.5 meters.
-#'
-#' @section  Model Scaling:
-#' The study's results were scaled using the proportion of the CVPIA reach with each study reach extent.
-#'
-#' @section Upper Sacramento River:
-#' The CVPIA Upper Sacramento River extends from Keswick to Red Bluff (59.3 mi).
-#' This reach overlaps with two of the study's, Keswick to Battle Creek (28.9 mi) and Battle Creek to
-#' the confluence with the Feather River (186.5 mi).
-#'
-#' @section Upper-mid Sacramento River:
-#' The study's extent is from Battle Creek to the confluence with the Feather River (186.5 mi).
-#' The CVPIA Upper-mid Sacramento River extends from Red Blurr to Wilkins Slough (122.3 mi).
-#'
-#' @section Lower-mid Sacramento River:
-#' The CVPIA Lower-mid Sacramento River extends
-#' from Wilkins Slough to the American River (58.0 mi). This reach overlaps with two of the study's, Battle Creek to
-#' the confluence with the Feather River (186.5 mi) and the confluence with the Feather River to Freeport (33.9 mi).
-#'
-#' @section Lower Sacramento River:
-#' The study's extent is from the confluence with the Feather River to Freeport (33.4 mi). The CVPIA Lower
-#' Sacramento River extends from the confluence with the American River to Freeport (13.7 mi).
-#'
-#'
-#' @source \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/HendrixEtAl2014_Winter_Run_Model_Tech_Memo.pdf}{Central Valley Floodplain Evaluation and Delineation (CVFED) HEC-RAS hydraulic model refined for use in the NOAA-NMFS Winter Run Chinook Salmon life cycle model}
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/sacramento_river.html}{Sacramento River Habitat Documenation}
 #' @name sac_floodplain
 #' @aliases NULL
 NULL
@@ -111,39 +73,7 @@ NULL
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @examples
-#' upper_sacramento_river_instream
-#'
-#' @section Fall Run and Steelhead Modeling:
-#' The entire mapped rearing extent was modeled using Central Valley Floodplain
-#' Evaluation and Delineation (CVFED) HEC-RAS hydraulic model refined for use in the NOAA-NMFS Winter
-#' Run Chinook Salmon life cycle model. The high quality depth and high quality velocity ("Pref11") "BankArea"
-#' result was used as floodplain area. High quality velocities were assumed to be less than or equal to 0.15 meters
-#' per second, and high quality depths were assumed to be between 0.2 meters and 1.5 meters.
-#'
-#' @section  Model Scaling:
-#' The study's results were scaled using the proportion of the CVPIA reach with each study reach extent.
-#'
-#' @section Upper Sacramento River:
-#' The CVPIA Upper Sacramento River extends from Keswick to Red Bluff (59.3 mi).
-#' This reach overlaps with two of the study's, Keswick to Battle Creek (28.9 mi) and Battle Creek to
-#' the confluence with the Feather River (186.5 mi).
-#'
-#' @section Upper-mid Sacramento River:
-#' The study's extent is from Battle Creek to the confluence with the Feather River (186.5 mi).
-#' The CVPIA Upper-mid Sacramento River extends from Red Blurr to Wilkins Slough (122.3 mi).
-#'
-#' @section Lower-mid Sacramento River:
-#' The CVPIA Lower-mid Sacramento River extends
-#' from Wilkins Slough to the American River (58.0 mi). This reach overlaps with two of the study's, Battle Creek to
-#' the confluence with the Feather River (186.5 mi) and the confluence with the Feather River to Freeport (33.9 mi).
-#'
-#' @section Lower Sacramento River:
-#' The study's extent is from the confluence with the Feather River to Freeport (33.4 mi). The CVPIA Lower
-#' Sacramento River extends from the confluence with the American River to Freeport (13.7 mi).
-#'
-#'
-#' @source \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/HendrixEtAl2014_Winter_Run_Model_Tech_Memo.pdf}{Central Valley Floodplain Evaluation and Delineation (CVFED) HEC-RAS hydraulic model refined for use in the NOAA-NMFS Winter Run Chinook Salmon life cycle model}
+#' @details \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/HendrixEtAl2014_Winter_Run_Model_Tech_Memo.pdf}{Central Valley Floodplain Evaluation and Delineation (CVFED) HEC-RAS hydraulic model refined for use in the NOAA-NMFS Winter Run Chinook Salmon life cycle model}
 #' @name sac_instream
 #' @aliases NULL
 NULL
@@ -183,18 +113,7 @@ NULL
 #'   \item{Sutter Bypass 4}{suitable rearing area in square meters in the Sutter Bypass below Tisdale Weir}
 #' }
 #'
-#' @details Habitat estimates from NOAA NMFS Winter Run Life Cycle Model
-#'
-#' High quality defined by:
-#'
-#' Channel depth > 0.2 m and < 1.5 m
-#'
-#' Velocity <= 0.15 m/s
-#'
-#' @examples
-#' yolo_bypass_floodplain
-#'
-#' @source \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/HendrixEtAl2014_Winter_Run_Model_Tech_Memo.pdf}{Central Valley Floodplain Evaluation and Delineation (CVFED) HEC-RAS hydraulic model refined for use in the NOAA-NMFS Winter Run Chinook Salmon life cycle model}
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/bypasses.html}{Bypass Habitat Documenation}
 #' @name bypass
 #' @aliases NULL
 NULL
@@ -633,25 +552,16 @@ NULL
 #' @description A dataset containing the Weighted Usable Area (WUA) in square feet per 1000 feet
 #' as a function of flow in cubic feet per second
 #'
-#' @format dataframe with 41 rows and 6 variables:
+#' @format dataframe with 41 rows and 5 variables:
 #' \describe{
 #'   \item{flow_cfs}{integer flow value in cubic feet per second}
-#'   \item{FR_spawn_wua}{spawning WUA in square feet per 1000 feet}
-#'   \item{FR_fry_wua}{fry (up to 50 mm) WUA in square feet per 1000 feet}
-#'   \item{FR_juv_wua}{juvenile WUA in square feet per 1000 feet}
-#'   \item{ST_adult_wua}{adult trout WUA in square feet per 1000 feet}
+#'   \item{SR_spawn_wua}{spawning WUA in square feet per 1000 feet}
+#'   \item{SR_fry_wua}{fry (up to 50 mm) WUA in square feet per 1000 feet}
+#'   \item{SR_juv_wua}{juvenile WUA in square feet per 1000 feet}
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @details The spawning WUA values were derived from a FWS River2D model and the rearing WUA from a PHABSIM
-#' model created for the 2008 FERC relicensing of DeSabla. The spawning values are from two river
-#' segments, above Centerville Powerhouse (6.5 miles) and below (9 miles).
-#' The spawning results are for Spring Run Chinook. The rearing results are for Fall Run Chinook.
-#'
-#' @examples
-#' butte_creek_instream
-#'
-#' @source \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/DeSabla2008ButteIFIM.pdf}{FWS and 2008 FERC relicensing of DeSabla}
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/butte_creek.html}{Butte Creek Habitat Documentation}
 "butte_creek_instream"
 
 #' Battle Creek Instream Flow to Habitat Area Relationship
@@ -674,7 +584,7 @@ NULL
 #' @examples
 #' battle_creek_instream
 #'
-#' @source \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/Payne1995_BattleCreekIFIM.pdf}{Payne 1995}
+#' @source \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/battle_creek.html}{Battle Creek Habitat Documentation}
 "battle_creek_instream"
 
 #' Bear River Instream Flow to Habitat Area Relationship
@@ -682,21 +592,16 @@ NULL
 #' @description A dataset containing the Weighted Usable Area (WUA) in square feet per 1000 feet
 #' as a function of flow in cubic feet per second
 #'
-#' @format dataframe with 4 rows and 4 variables:
+#' @format dataframe with 18 rows and 4 variables:
 #' \describe{
 #'   \item{flow_cfs}{integer flow value in cubic feet per second}
 #'   \item{FR_spawn_wua}{spawning WUA in square feet per 1000 feet}
+#'   \item{FR_fry_wua}{fry (up to 50 mm) WUA in square feet per 1000 feet}
 #'   \item{FR_juv_wua}{juvenile (>50 mm) WUA in square feet per 1000 feet}
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @details The spawning and rearing WUA values were derived from a PHABSIM model. A River2D model is in development.
-#' The results are for Fall Run Chinook.
-#'
-#' @examples
-#' bear_river_instream
-#'
-#' @source \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/Holton1985_BearRiverIFIM.PDF}{Holten 1985}
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/bear_river.html}{Bear River Habitat Documentation}
 "bear_river_instream"
 
 #' Calaveras River Instream Flow to Habitat Area Relationship
@@ -713,12 +618,7 @@ NULL
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @details The spawning and rearing WUA values were derived from a PHABSIM model. The reults are for Steelhead.
-#'
-#' @examples
-#' calaveras_river_instream
-#'
-#' @source \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/FishBio_Payne2009_CalaverasInstreamFlowStudy.pdf}{FishBio and Payne 2009}
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/calaveras_river.html}{Calaveras River Habitat Documentation}
 "calaveras_river_instream"
 
 #' Clear Creek Instream Flow to Habitat Area Relationship
@@ -741,15 +641,7 @@ NULL
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @details The spawning and rearing WUA were derived from a FWS River2D model. The WUA values are from
-#' three river segments, Upper Alluvial (2.27 miles), Canyon Segment (7.33 miles), and Lower Alluvial (8.81 miles).
-#' Fall Run are only in the Lower Alluvial Segment and there is a segregation weir that prevents the
-#' Spring Run from spawning in the Lower Alluvial Segment.
-#'
-#' @examples
-#' clear_creek_instream
-#'
-#' @source \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/FWS2007-2013_ClearCreekInstream.pdf}{FWS 2007-2013}
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/clear_creek.html}{Clear Creek Habitat Documentation}
 "clear_creek_instream"
 
 #' Cottonwood Creek Instream Flow to Habitat Area Relationship
@@ -757,22 +649,18 @@ NULL
 #' @description A dataset containing the Weighted Usable Area (WUA) in square feet per 1000 feet
 #' as a function of flow in cubic feet per second
 #'
-#' @format dataframe with 36 rows and 5 variables:
+#' @format dataframe with 19 rows and 7 variables:
 #' \describe{
 #'   \item{flow_cfs}{integer flow value in cubic feet per second}
 #'   \item{FR_spawn_wua}{spawning WUA in square feet per 1000 feet}
 #'   \item{FR_fry_wua}{fry (up to 50 mm) WUA in square feet per 1000 feet}
 #'   \item{FR_juv_wua}{juvenile WUA in square feet per 1000 feet}
+#'   \item{ST_fry_wua}{fry (up to 50 mm) WUA in square feet per 1000 feet}
+#'   \item{ST_juv_wua}{juvenile WUA in square feet per 1000 feet}
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @details The spawning WUA values were derived from a PHABSIM model. The rearing values are from the FWS 2014
-#' River2D model. The results are for Fall Run.
-#'
-#' @examples
-#' cottonwood_creek_instream
-#'
-#' @source \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/CDFW1979_CottonwoodSpawningIFIM.PDF}{CDFW 1979 and FWS 2014}
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/cottonwood_creek.html}{Cottonwood Creek Habitat Documentation}
 "cottonwood_creek_instream"
 
 #' Feather River Instream Flow to Habitat Area Relationship
@@ -780,7 +668,7 @@ NULL
 #' @description A dataset containing the Weighted Usable Area (WUA) in square feet per 1000 feet
 #' as a function of flow in cubic feet per second
 #'
-#' @format dataframe with 7 rows and 5 variables:
+#' @format dataframe with 18 rows and 6 variables:
 #' \describe{
 #'   \item{flow_cfs}{integer flow value in cubic feet per second}
 #'   \item{FR_spawn_wua}{spawning WUA in square feet per 1000 feet}
@@ -790,14 +678,7 @@ NULL
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @details The spawning and rearing WUA values were derived from a PHABSIM model. The results are for Fall Run.
-#'
-#' @examples
-#' feather_river_instream
-#'
-#' @source
-#' Spawning: \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/Feather_FERC_IFIM_Phase_2.pdf}{FERC 2004}
-#' Rearing: \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/Payne2002_FeatherRiverIFIM+7-22-02.pdf}{Payne 2002}
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/feather_river.html}{Feather River Habitat Documentation}
 "feather_river_instream"
 
 #' Merced River Instream Flow to Habitat Area Relationship
@@ -815,13 +696,7 @@ NULL
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @details The spawning WUA values were derived from the FWS 1996 PHABSIM model and the rearing from
-#' the MID 2013 PHABSIM.
-#'
-#' @examples
-#' merced_river_instream
-#'
-#' @source \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/FWS1996_AmericanRiverSpawningFinalReport.pdf}{FWS 1996 and MID 2013}
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/merced_river.html}{Merced River Habitat Documentation}
 "merced_river_instream"
 
 #' Mokelumne River Instream Flow to Habitat Area Relationship
@@ -829,7 +704,7 @@ NULL
 #' @description A dataset containing the Weighted Usable Area (WUA) in square feet per 1000 feet
 #' as a function of flow in cubic feet per second
 #'
-#' @format dataframe with 14 rows and 5 variables:
+#' @format dataframe with 52 rows and 6 variables:
 #' \describe{
 #'   \item{flow_cfs}{integer flow value in cubic feet per second}
 #'   \item{FR_spawn_wua}{spawning WUA in square feet per 1000 feet}
@@ -839,13 +714,7 @@ NULL
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @details The spawning WUA values were derived from the EBMUD 2016 SRH2D model and the rearing from
-#' the CDFW 1998 PHABSIM.
-#'
-#' @examples
-#' mokelumne_river_instream
-#'
-#' @source EBMUD 2016 and CDFW 1998
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/mokelumne_river.html}{Mokelumne River Habitat Documentation}
 "mokelumne_river_instream"
 
 #' Cosumnes River Instream Flow to Habitat Area Relationship
@@ -853,7 +722,7 @@ NULL
 #' @description A dataset containing the Weighted Usable Area (WUA) in square feet per 1000 feet
 #' as a function of flow in cubic feet per second
 #'
-#' @format dataframe with 14 rows and 5 variables:
+#' @format dataframe with 10 rows and 5 variables:
 #' \describe{
 #'   \item{flow_cfs}{integer flow value in cubic feet per second}
 #'   \item{FR_spawn_wua}{spawning WUA in square feet per 1000 feet}
@@ -862,14 +731,7 @@ NULL
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @details The Cosumnes River instream rearing habitat has not been modeled.
-#' The WUA values were estimated using the mean WUA at each flow from Mokelumne
-#' and Calaveras Rivers.
-#'
-#' @examples
-#' cosumnes_river_instream
-#'
-#' @source Sadie Gill
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/cosumnes_river.html}{Cosumnes River Habitat Documentation}
 "cosumnes_river_instream"
 
 #' San Joaqin River Instream Flow to Habitat Area Relationship
@@ -877,7 +739,7 @@ NULL
 #' @description A dataset containing the Weighted Usable Area (WUA) in square feet per 1000 feet
 #' as a function of flow in cubic feet per second
 #'
-#' @format dataframe with 14 rows and 5 variables:
+#' @format dataframe with 47 rows and 5 variables:
 #' \describe{
 #'   \item{flow_cfs}{integer flow value in cubic feet per second}
 #'   \item{FR_spawn_wua}{spawning WUA in square feet per 1000 feet}
@@ -886,14 +748,7 @@ NULL
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @details The Lower San Joaquin River instream rearing habitat has not been modeled.
-#' The WUA values were estimated using the mean WUA at each flow from the Merced, Stanislaus,
-#' and Tuolumne Rivers.
-#'
-#' @examples
-#' san_joaquin_river_instream
-#'
-#' @source Sadie Gill
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/san_joaquin_river.html}{San Joaquin River Habitat Documentation}
 "san_joaquin_river_instream"
 
 #' Upper-mid Sacramento River Region Instream Flow to Habitat Area Relationship
@@ -944,10 +799,7 @@ NULL
 #'   \item Thomes Creek
 #' }
 #'
-#' @examples
-#' upper_mid_sac_region_instream
-#'
-#' @source Sadie Gill
+#' @source \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/Regional_Approximation.html}{Upper-Mid Sacramento Regional Approximation Habitat Documentation}
 "upper_mid_sac_region_instream"
 
 
@@ -964,13 +816,7 @@ NULL
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @details The rearing WUA values are from a River2D model done on South Cow Creek. The values are from two river
-#' segments, Valley Floor Reach (5.11 miles) and Boero Reach (1.68 miles).
-#'
-#' @examples
-#' cow_creek_instream
-#'
-#' @source \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/FWS2011_SouthCowrpt.pdf}{FWS 2011}
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/cow_creek.html}{Cow Creek Habitat Documentation}
 "cow_creek_instream"
 
 #' Stanislaus River Instream Flow to Habitat Area Relationship
@@ -978,7 +824,7 @@ NULL
 #' @description A dataset containing the Weighted Usable Area (WUA) in square feet per 1000 feet
 #' as a function of flow in cubic feet per second
 #'
-#' @format dataframe with 47 rows and 7 variables:
+#' @format dataframe with 57 rows and 7 variables:
 #' \describe{
 #'   \item{flow_cfs}{integer flow value in cubic feet per second}
 #'   \item{FR_spawn_wua}{spawning WUA in square feet per 1000 feet}
@@ -989,13 +835,7 @@ NULL
 #'   \item{watershed}{name of watershed}
 #' }
 #'
-#' @details The spawning WUA was derived from the Aceituno 1993 (FWS) PHABSIM model and the rearing from
-#' the FWS River2D model.
-#'
-#' @examples
-#' stanislaus_river_instream
-#'
-#' @source FWS
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/stanislaus_river.html}{Stanislaus River Habitat Documentation}
 "stanislaus_river_instream"
 
 
@@ -1013,19 +853,14 @@ NULL
 #' \item{watershed}{name of watershed}
 #' }
 #'
-#' @details TODO
-#'
-#' @examples
-#' american_river_instream
-#'
-#' @source \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/AmericanRiver1985IFIM.PDF}{FWS 1985} and \href{https://s3-us-west-2.amazonaws.com/cvpia-reference-docs/ARWA-702.pdf}{ARWA-702}
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/american_river.html}{American River Habitat Documentation}
 "american_river_instream"
 
 #' Yuba River Instream Flow to Habitat Area Relationship
 #' @description A dataset containing the Weighted Usable Area (WUA) in square feet per 1000 feet
 #' as a function of flow in cubic feet per second
 #'
-#' @format dataframe with 34 rows and 10 variables
+#' @format dataframe with 34 rows and 9 variables
 #' \describe{
 #' \item{flow_cfs}{numeric flow value in cubic feet per second}
 #' \item{FR_spawn_wua}{Fall Run spawning WUA in square feet per 1000 feet}
@@ -1035,14 +870,10 @@ NULL
 #' \item{ST_spawn_wua}{Steelhead spawning WUA in square feet per 1000 feet}
 #' \item{ST_fry_wua}{Steelhead fry WUA in square feet per 1000 feet}
 #' \item{ST_juv_wua}{Steelhead juvenile WUA in square feet per 1000 feet}
-#' \item{ST_adult_wua}{Steelhead adult WUA in square feet per 1000 feet}
 #' \item{watershed}{name of watershed}
 #' }
 #'
-#' @examples
-#' yuba_river_instream
-#'
-#' @source TODO fix source
+#' @details \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/yuba_river.html}{Yuba River Habitat Documentation}
 "yuba_river_instream"
 
 #' Tuolumne River Instream Flow to Habitat Area Relationship
@@ -1062,12 +893,7 @@ NULL
 #' \item{watershed}{name of watershed}
 #' }
 #'
-#' @details The spawning and rearing WUAs were derived using a PHABSIM model by Stillwater 2010.
-#'
-#' @examples
-#' tuolumne_river_instream
-#'
-#' @source \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/Stillwater2010_Tuolumne_P-2299-075_71_DP_FLA_AttC_StudyRept_IFIM_AppA-H_140428.pdf}{Flo2D model by Stillwater, 2014}
+#' @details  \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/tuolumne_river.html}{Tuolumne River Habitat Documentation}
 "tuolumne_river_instream"
 
 #' Habitat Extent Lengths
@@ -1185,27 +1011,7 @@ NULL
 #'   \item{South Delta}{high quality habitat area in square meters}
 #' }
 #'
-#' @details
-#' Habitat estimates from NOAA NMFS Winter Run Life Cycle Model. The model
-#' outputs habitat area estimates for months December-May. Habitat for months
-#' June-Novemeber are represented by the yearly average habitat.
-#'
-#' High quality habitat defined by:
-#'
-#' Channel type: mainstem, distributaries, or open water
-#'
-#' Depth: > 0.2 m and <= 1.5 m
-#'
-#' Cover Vegetated edge
-#'
-#' @source
-#' \href{https://s3-us-west-2.amazonaws.com/cvpiahabitat-r-package/cvpia-sit-model-inputs/HendrixEtAl2014_Winter_Run_Model_Tech_Memo.pdf}{Central Valley Floodplain Evaluation and Delineation (CVFED) HEC-RAS hydraulic model refined for use in the NOAA-NMFS Winter Run Chinook Salmon life cycle model}
-#'
-#' \itemize{
-#'   \item Modeling Output: Correigh Green \email{correigh.greene@@noaa.gov}
-#'   \item Delta Node Selection: Mark Tompkins \email{mtompkins@@flowwest.com}
-#'   \item Data Wrangling: Sadie Gill \email{sgill@@flowwest.com}
-#' }
+#' @details  \href{http://cvpia-habitat-docs-markdown.s3-website-us-west-2.amazonaws.com/watershed/delta.html}{Delta Habitat Documentation}
 'delta_habitat'
 
 #' Pool Area
